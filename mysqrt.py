@@ -38,3 +38,9 @@ def test():
 			% (s, sn)
 		assert abs(s - sn) < 1e-14, \
 			"Disagree for x = %20.15e" % x
+
+
+# run tests if the file is run as a script rather than imported as a module
+if __name__ == "__main__":
+	print "running tests..."
+	test()
