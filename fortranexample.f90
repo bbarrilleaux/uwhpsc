@@ -2,7 +2,7 @@ program myexample
 	! force variables to be explicitly declared:
 	implicit none
 
-	! declare some 8-bit floating point numbers:
+	! declare some 8-byte floating point numbers:
 	real (kind=8) :: x,y,z
 
 	! declare a constant:
